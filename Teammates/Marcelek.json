@@ -1,0 +1,21 @@
+{
+    "name" : "Piotruś",
+    "max_hp" : 600,
+    "max_grind" : 80,
+    "hp" : 600,
+    "grind" : 80,
+    "profileLink" : "res://Keb00se Animation/head.png",
+    "attacks" : [
+        {"name" : "Atak 1", "dmg" : 45 , "heal" : 0, "caffeine" : 10.00, "desc" : "Piotr atakuje"},
+        {"name" : "Atak 2", "dmg" : 55 , "heal" : 0, "caffeine" : 10.00, "desc" : "Piotr atakuje"},
+        {"name" : "Atak 3", "dmg" : 30 , "heal" : 0, "caffeine" : 10.00, "desc" : "Piotr atakuje"}
+    ],
+    "limits" : [
+        {"name" : "Nie", "dmg" : 0, "heal" : 0, "all" : 0, "desc" : "Keb00se całkowicie dementuje fakty i logikę wiedząc lepiej"},
+        {"name" : "Nie", "dmg" : 0, "heal" : 0, "all" : 0, "desc" : "Keb00se całkowicie dementuje fakty i logikę wiedząc lepiej"}
+    ],
+    "items" : [
+		{"amount":4,"caffeine":0,"desc":"Pyszny milkshake z Filippe leczy smutki i żale","dmg":0,"heal":50,"name":"Milkshake Filipa Flaka"},
+		{"amount":10,"caffeine":50,"desc":"Nie ma to jak 3 h snu i kawa melanże na 10 lekcji","dmg":0,"heal":0,"name":"Kawka melanż"}
+	]
+}

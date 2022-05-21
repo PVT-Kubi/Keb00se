@@ -1,0 +1,5 @@
+[
+	{"name" : "Pchnięcie bebechem", "dmg" : 30 , "heal" : 0, "caffeine" : 10.00, "desc" : "Keb00se atakuje przeciwnika swoim bebz00nem."},
+	{"name" : "G00wno", "dmg" : 0 , "heal" : 0 , "effect" :  ["dizzy",50], "caffeine" : 5.00,  "desc" : "Keb00se g00wno i przeciwnik może dizzy 50%."},
+	{"name" : "Stresuję się", "dmg" : 0, "heal" : 0, "effect" : ["dmg_buff_costfull", 0], "caffeine" : 8.00, "desc" : "Keb00se stresuje się przez co otrzymuje zwiększone obrażenia, ale klepie mocniej"}
+]

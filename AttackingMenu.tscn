@@ -1,0 +1,138 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://BattleProfile.tscn" type="PackedScene" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://MenuWorking.gd" type="Script" id=3]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FirstMenu" type="Panel" parent="."]
+margin_left = 72.0
+margin_top = 784.0
+margin_right = 312.0
+margin_bottom = 992.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="FirstMenu"]
+margin_left = 56.0
+margin_top = 16.0
+margin_right = 152.0
+margin_bottom = 48.0
+rect_pivot_offset = Vector2( -400, -112 )
+text = "Attack"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="FirstMenu/Label"]
+visible = false
+position = Vector2( -20, 16 )
+scale = Vector2( 0.375, 0.25 )
+texture = ExtResource( 2 )
+
+[node name="Label2" type="Label" parent="FirstMenu"]
+margin_left = 56.0
+margin_top = 80.0
+margin_right = 152.0
+margin_bottom = 112.0
+text = "Skills"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="FirstMenu/Label2"]
+visible = false
+position = Vector2( -20, 16 )
+scale = Vector2( 0.375, 0.25 )
+texture = ExtResource( 2 )
+
+[node name="Label3" type="Label" parent="FirstMenu"]
+margin_left = 56.0
+margin_top = 144.0
+margin_right = 152.0
+margin_bottom = 176.0
+rect_pivot_offset = Vector2( -776, -568 )
+text = "Items"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="FirstMenu/Label3"]
+visible = false
+position = Vector2( -20, 16 )
+scale = Vector2( 0.375, 0.25 )
+texture = ExtResource( 2 )
+
+[node name="ScnMenu" type="Panel" parent="."]
+margin_left = 384.0
+margin_top = 784.0
+margin_right = 888.0
+margin_bottom = 992.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Desc" type="Panel" parent="."]
+margin_left = 960.0
+margin_top = 784.0
+margin_right = 1280.0
+margin_bottom = 992.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Name" type="Label" parent="Desc"]
+margin_left = 8.0
+margin_top = 16.0
+margin_right = 128.0
+margin_bottom = 48.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Desc" type="Label" parent="Desc"]
+margin_left = 8.0
+margin_top = 48.0
+margin_right = 256.0
+margin_bottom = 168.0
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FirsProfile" parent="." instance=ExtResource( 1 )]
+visible = false
+margin_left = 1416.0
+margin_right = 1659.0
+
+[node name="ScnProfile" parent="." instance=ExtResource( 1 )]
+visible = false
+margin_left = 1416.0
+margin_top = 288.0
+margin_right = 1659.0
+margin_bottom = 497.0
+
+[node name="ThrProfile" parent="." instance=ExtResource( 1 )]
+visible = false
+margin_left = 1416.0
+margin_top = 536.0
+margin_right = 1659.0
+margin_bottom = 745.0
+
+[node name="FoProfile" parent="." instance=ExtResource( 1 )]
+visible = false
+margin_left = 1416.0
+margin_top = 784.0
+margin_right = 1659.0
+margin_bottom = 993.0

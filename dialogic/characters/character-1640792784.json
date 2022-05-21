@@ -1,0 +1,24 @@
+{
+	"color": "#ff0322f1",
+	"description": "Keb00se. Każdy go zna i każdy go lubi.",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1640792784.json",
+	"mirror_portraits": false,
+	"name": "Keb00se",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "icon",
+			"path": "res://icon.png"
+		}
+	],
+	"scale": 100
+}

@@ -1,0 +1,11 @@
+{
+	"profileLink" : "res://Keb00se Animation/head.png",
+	"items":[
+		{"amount":4,"caffeine":0,"desc":"Pyszny milkshake z Filippe leczy smutki i żale","dmg":0,"heal":50,"name":"Milkshake Filipa Flaka"},
+		{"amount":10,"caffeine":50,"desc":"Nie ma to jak 3 h snu i kawa melanże na 10 lekcji","dmg":0,"heal":0,"name":"Kawka melanż"}
+	],
+	"teammates" :
+	[
+		"res://Teammates/Piter.json"
+	]
+}

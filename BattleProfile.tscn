@@ -1,0 +1,111 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://PlayfairDisplay-SemiBoldItalic.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://BattleProfile.gd" type="Script" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 20
+use_filter = true
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+use_filter = true
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=3]
+use_filter = true
+font_data = ExtResource( 2 )
+
+[node name="Panel" type="Panel"]
+margin_left = 1417.0
+margin_top = 40.0
+margin_right = 1660.0
+margin_bottom = 249.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 128, 43 )
+scale = Vector2( 1.23242, 1.23242 )
+
+[node name="Name" type="Label" parent="."]
+margin_left = 88.0
+margin_top = 85.0
+margin_right = 168.0
+margin_bottom = 113.0
+custom_fonts/font = SubResource( 1 )
+text = "Hello Me"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HpBar" type="ProgressBar" parent="."]
+margin_left = 84.0
+margin_top = 119.0
+margin_right = 217.0
+margin_bottom = 133.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HpLabel" type="Label" parent="."]
+margin_left = 19.0
+margin_top = 113.0
+margin_right = 70.0
+margin_bottom = 136.0
+custom_fonts/font = SubResource( 2 )
+text = "HP"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Caffeine" type="Label" parent="."]
+margin_left = 17.0
+margin_top = 134.0
+margin_right = 80.0
+margin_bottom = 157.0
+rect_pivot_offset = Vector2( -1140, -331 )
+custom_fonts/font = SubResource( 2 )
+text = "Caffeine"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CafBar" type="ProgressBar" parent="."]
+margin_left = 85.0
+margin_top = 138.0
+margin_right = 217.0
+margin_bottom = 152.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="WkurwBar" type="ProgressBar" parent="."]
+margin_left = 30.0
+margin_top = 183.0
+margin_right = 225.0
+margin_bottom = 198.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Wkurw" type="Label" parent="."]
+margin_left = 85.0
+margin_top = 157.0
+margin_right = 174.0
+margin_bottom = 180.0
+custom_fonts/font = SubResource( 3 )
+text = "Wkurwienie"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
