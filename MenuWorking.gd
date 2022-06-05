@@ -121,6 +121,8 @@ func _process(delta):
 	if Input.is_action_just_pressed("ui_cancel"):
 		if attacking:
 			attacking = false
+			wichCursor = 0
+			wichMenu = 0
 			get_parent().uncheckEveryone()
 		else:
 			for n in cursors[wichMenu][wichCursor].get_children():
